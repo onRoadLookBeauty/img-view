@@ -1,0 +1,6 @@
+.DS_Store
+node_modules
+.idea
+db-tool/node_modules
+img-vue/node_modules
+img-vue/dist

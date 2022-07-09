@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document */
+
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img {
+    margin: 0;
+    padding: 0;
+}
+
+fieldset, c {
+    border: none;
+}
+
+img {
+    display: block;
+}
+
+address, caption, cite, code, dfn, th, var {
+    font-style: normal;
+    font-weight: normal;
+}
+
+ul, ol, li {
+    list-style: none;
+}
+
+/* 自带的字体 */
+body {
+    color: #333;
+    font: 16px "BASE", "Microsoft Yahei", "Arial Narrow", HELVETICA;
+    background: #fff;
+}
+
+/* a { color:#666; text-decoration:none; } */
+
+/*清除浮动*/
+.clear {
+    clear: both
+}
+
+* {
+    box-sizing: border-box
+}
+
+body, html {
+    --mainColor: red;
+    height: 100%;
+    /* -ms-scroll-chaining: chained;
+    -ms-overflow-style: none;
+    -ms-content-zooming: zoom;
+    -ms-scroll-rails: none;
+    -ms-content-zoom-limit-min: 100%;
+    -ms-content-zoom-limit-max: 500%;
+    -ms-scroll-snap-type: proximity;
+    -ms-scroll-snap-points-x: snapList(100%, 200%, 300%, 400%, 500%);
+    -ms-overflow-style: none;
+    overflow: auto; */
+    /* overflow: hidden; */
+}
